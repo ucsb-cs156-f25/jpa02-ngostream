@@ -39,24 +39,24 @@ public class DeveloperTest {
     @Test
     public void getTeam_returns_team_with_correct_members() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("JOHN JAMES"),"Team should contaJOHN JAMES V.");
-        assertTrue(t.getMembers().contains("NATHAN TUAN"),"Team should contaiNATHAN TUANN.");
+        assertTrue(t.getMembers().contains("JOHN JAMES"),"Team should contain JOHN JAMES");
+        assertTrue(t.getMembers().contains("NATHAN TUAN"),"Team should contain NATHAN TUAN");
         assertTrue(t.getMembers().contains("NIC XAVIER"),"Team should contain NIC XAVIER");
-        assertTrue(t.getMembers().contains("NOAH ZACHARY"),"Team should conNOAH ZACHARYah L.");
-        assertTrue(t.getMembers().contains("WILLIAM"),"Team should contain WilWILLIAM
-        assertTrue(t.getMembers().contains("YI"),"Team should contain Yi YI
+        assertTrue(t.getMembers().contains("NOAH ZACHARY"),"Team should contain NOAH ZACHARY");
+        assertTrue(t.getMembers().contains("WILLIAM"),"Team should contain WILLIAM");
+        assertTrue(t.getMembers().contains("YI"),"Team should contain YI");
     }
 
     @Test
     public void getTeam_returns_team_with_John() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("JOHN JAMES"),"Team should contaJOHN JAMES V.");
+        assertTrue(t.getMembers().contains("JOHN JAMES"),"Team should contain JOHN JAMES");
     }
 
     @Test
     public void getTeam_returns_team_with_Nathan() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("NATHAN TUAN"),"Team should contaiNATHAN TUANN.");
+        assertTrue(t.getMembers().contains("NATHAN TUAN"),"Team should contain NATHAN TUAN");
     }
 
     @Test
@@ -68,22 +68,18 @@ public class DeveloperTest {
     @Test
     public void getTeam_returns_team_with_Noah() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("NOAH ZACHARY"),"Team should conNOAH ZACHARYah L.");
+        assertTrue(t.getMembers().contains("NOAH ZACHARY"),"Team should contain NOAH ZACHARY");
     }
 
     @Test
     public void getTeam_returns_team_with_William() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("WILLIAM"),"Team should contain WilWILLIAM
+        assertTrue(t.getMembers().contains("WILLIAM"),"Team should contain WILLIAM");
     }
 
     @Test
     public void getTeam_returns_team_with_Yi() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("YI"),"Team should contain Yi YI
+        assertTrue(t.getMembers().contains("YI"),"Team should contain YI");
     }
-
-    // TODO: Add additional tests as needed to get to 100% jacoco line coverage, and
-    // 100% mutation coverage (all mutants timed out or killed)
-
 }
