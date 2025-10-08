@@ -44,14 +44,14 @@ public class TeamTest {
     @Test
     public void equals_none_and_eq() {
         Team team1 = new Team("wrong-team");
-        team1.addMember("Nathan N.");
+        team1.addMember("NATHAN TUAN");
         assertEquals(false, team.equals(team1));
     }
 
     @Test
     public void equals_one_and_eq() {
         Team team1 = new Team("test-team");
-        team.addMember("Nathan N.");
+        team.addMember("NATHAN TUAN");
         assertEquals(false, team.equals(team1));
 
         Team team2 = new Team("wrong-team");
